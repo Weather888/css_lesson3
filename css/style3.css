@@ -1,0 +1,90 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#container{
+  text-align: justify;
+  background-color: #fff;
+  margin: auto;
+  height: 675px;
+  width: 698px;
+}
+
+h1{
+  padding: 14px 0 0 38px;
+}
+
+body{
+  background-color: #cccccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin-top: -8px;
+}
+
+p:first-letter {
+  color: blue;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: Times, sans-serif;
+}
+
+#content {
+  width: 698px;
+  height: 240px;
+  float: left;
+  background-color: #FFF;
+  padding: 0 10px 0 10px;
+}
+
+#nav{
+  width: 698px;
+  height: 25px;
+  background-image:url('../images/nb.gif');
+}
+
+#header{
+  height: 50px;
+  background-color: #b0b0b0;
+  font-size: 105%;
+  letter-spacing: -0.7px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  width: 720px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+ul li{
+  display: inline;
+  float: left;
+}
+
+a{
+  padding: 0 10px 0 9px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  display: block;
+  background-image:url('../images/nb.gif');
+  background-repeat: repeat-x;
+}
+
+ul a:hover{
+  color: #333;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  color: black; font-weight: bold;
+  text-decoration: underline;
+}
